@@ -56,4 +56,10 @@ float: left;
   display: block;
 }
 
-
+.top-wripper{
+	padding-top: 200px;
+	padding-bottom: 400px;
+	color: white;
+	background-image: url(img/gmbr2.jpg);
+	background-size: cover;	
+}
