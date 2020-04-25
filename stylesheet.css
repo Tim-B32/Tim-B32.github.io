@@ -26,6 +26,8 @@ header {
   height: 65px;
   width: 100%;
   position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 .header-logo {
@@ -36,7 +38,7 @@ header {
 }
 
 .header-list li{
-float: left;
+  float: left;
   padding:10px 30px;	
 }
 
@@ -68,7 +70,7 @@ float: left;
 }
 
 .top-wrapper h1{
-  opacity:0.7;
+  opacity:1;
   font-size:45px;
   letter-spacing:5px ;
   margin-bottom: 10px;
@@ -78,6 +80,8 @@ float: left;
 .top-wrapper p{
   opacity:0.7;
   margin-bottom:3px;
+  font-family: 'Courier New', Courier, monospace;
+  font-style: italic;
 }
 
 .btn{
@@ -104,4 +108,39 @@ float: left;
 .btn-wrapper p{
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.list-wrapper{
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+}
+
+.heading{
+  padding-top: 20px;
+  padding-bottom: 10px;
+  color: #5f5d60;
+  width: 1200px;
+}
+
+.produk{
+  float: left;
+  width: 25%;
+}
+
+.produk h2{
+  text-align: left;
+}
+
+.gambar{
+  height: 200px;
+}
+
+.produk-icon{
+  position: relative;
+  width: 50%;
+}
+
+.beli{
+  background-color: tomato;
 }
