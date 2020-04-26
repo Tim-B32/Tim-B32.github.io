@@ -177,7 +177,22 @@ float: left;
     color: #878c94;
 }
 .footer .title{text-align: left;color:#fff;font-size:25px;}
+.btn-wrapper p {
+  margin: 10px 0;
+}
 
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
 
 .footer .social-icon{padding:0px;margin:0px;}
 .footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
