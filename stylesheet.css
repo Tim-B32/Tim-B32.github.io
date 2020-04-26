@@ -172,63 +172,20 @@ float: left;
 }
 
 .footer {
-    list-style: none;
-    float: left;
-    margin-right: 20px;
-    line-height: 50px;
-    padding-left: 20px;
-    padding-right: 15px;
-    display: block;
-    padding-bottom: 5px;
-    font-family: 'Courier New', Courier, monospace;
+    padding: 50px 0 20px 0;
     background-color: #35404f;
     color: #878c94;
 }
+.footer .title{text-align: left;color:#fff;font-size:25px;}
 
-.footer-title {
-    text-align: left;
-    color: #fff;
-    font-size: 25px;
-}
 
-.signup {
-  background-color: #239b76;
-}
+.footer .social-icon{padding:0px;margin:0px;}
+.footer .social-icon a{display:inline-block;color:#fff;font-size:25px;padding:5px;}
+.footer .acount-icon a{display:block;color:#fff;font-size:18px;padding:5px;text-decoration:none;}
+.footer .acount-icon .fa{margin-right:25px;}
 
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
 
-.twitter {
-  background-color: #55acee;
-}
-
-.footer .social-icon {
-    padding: 0px;
-    margin: 0px;
-}
-
-.footer .social-icon a {
-    display: inline-block;
-    color: #fff;
-    font-size: 25px;
-    padding: 5px;
-}
-
-.footer .acount-icon a {
-    display: block;
-    color: #fff;
-    font-size: 18px;
-    padding: 5px;
-    text-decoration: none;
-}
-
-.footer .acount-icon .fa {
-    margin-right: 25px;
-}
-
-.footer-category a {
+.footer .category a {
     text-decoration: none;
     color: #fff;
     display: inline-block;
@@ -236,12 +193,17 @@ float: left;
     margin: 1px;
     border-radius:4px;
     margin-top: 6px;
-    background-color: #F7F7F7;
+    background-color: black;
     border: solid 1px #fff;
 }
 
-.footer-payment {
-    margin: 0px;
-    padding: 0px;
-    list-style-type: none;
+.footer .payment{margin:0px;padding:0px;list-style-type:none}
+.footer .payment li{list-style-type:none}
+.footer .payment li a {
+    text-decoration: none;
+    display: inline-block;
+    color: #fff;
+    float: left;
+    font-size: 25px;
+    padding: 10px 10px;
 }
