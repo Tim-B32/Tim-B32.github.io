@@ -172,8 +172,16 @@ float: left;
 }
 
 .footer {
-    font-family: "Lucida Grande";
-    padding: 50px 0 20px 0;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+    line-height: 50px;
+    padding-left: 20px;
+    padding-right: 15px;
+    display: block;
+    padding-bottom: 5px;
+    color: black;
+    font-family: 'Courier New', Courier, monospace;
     background-color: #F7F7F7;
     color: #878c94;
 }
@@ -223,17 +231,4 @@ float: left;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
-}
-
-.footer-payment li {
-  list-style-type: none;
-}
-
-.footer-payment li a {
-    text-decoration: none;
-    display: inline-block;
-    color: #fff;
-    float: left;
-    font-size: 25px;
-    padding: 10px 10px;
 }
