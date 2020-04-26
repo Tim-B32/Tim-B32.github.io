@@ -189,7 +189,21 @@ float: left;
 .footer-title {
     text-align: left;
     color: #fff;
-    font-size: 25px;}
+    font-size: 25px;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
 
 .footer .social-icon {
     padding: 0px;
