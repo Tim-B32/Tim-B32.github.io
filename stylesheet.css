@@ -3,14 +3,12 @@ body {
   font-family: "Lucida Grande";
 }
 
-a{
+a {
   text-decoration: none;
-  color: white;
 }
+.top-wrapper{
+margin:0;
 
-li {
-  list-style: none;
-  
 }
 
 .container{
@@ -19,22 +17,20 @@ li {
   margin: 0;
 }
 
-header {
+header{
   height: 55px;
   width: 100%;
-   background-color:#F7F7F7;
+   background-color:#F7F7F7;    
+   /*#01374F*/
    position: fixed;
    z-index: 1000;
 }
 
-
 .logo{
-  width: 118px;
-  margin-top:0;
+  width: 99px;
+  margin-top:5px;
   padding-left: 20px;
 }
-
-
 
 .header-left{
   float: left;
@@ -56,21 +52,41 @@ header {
   display: block;
   padding-bottom: 5px;
   color: black;
+  font-family: 'Courier New', Courier, monospace;
 }
 
 .header-right a:hover{
-  background-color: white;
+  background-color:white ;
+/*rgba(255, 255, 255, 0.5)*/
+}
+.top-wrapper{
+  background-image: url(img/gmbr2.jpg);
+  padding-top: 130px;
+  padding-bottom: 180px;
+  color: white;
+  background-size: cover; 
+}
+
+.btn{
+  padding:12px 24px;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn-wrapper{
+  margin-top: 20px;
+  margin-bottom: 20px;
 
 }
 
+.btn:hover{
+  opacity: 1;
+}
 
-.top-wrapper{
-	padding-top: 200px;
-	padding-bottom: 180px;
-	color: white;
-	background-image: url(img/gmbr2.jpg);
-  background-size: cover;
-  text-align:left;	
+.koleksi{
+  background-color: tomato;
+  color: white;
 }
 
 .top-wrapper h1{
@@ -86,65 +102,71 @@ header {
   margin-bottom:3px;
   font-family: 'Courier New', Courier, monospace;
   font-style: italic;
+
 }
 
-.btn{
-  padding:12px 24px;
-  color:white;
-  display:inline-block;
-  opacity:0.8;
-  border-radius: 4px;
-}
-
-.btn:hover{
-  opacity: 1;
-}
-
-.koleksi{
-  background-color: tomato;
-}
-
-.btn-wrapper{
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-.btn-wrapper p{
-  margin-top: 10px;
-  margin-bottom: 10px;
-}
-
-.list-wrapper{
-  height: 500px;
+.lesson-wrapper{
+  height:450px;
   padding-bottom: 80px;
-  background-color: #f7f7f7;
+  background-color:#f7f7f7 ;
 }
 
 .heading{
-  padding-top: 20px;
-  padding-bottom: 10px;
-  color: #5f5d60;
-  width: 1200px;
+  padding-top:30px;
+  padding-bottom:20px;
+  color:#5f5d60;
 }
 
-.produk{
-  float: left;
+.lesson{
+  padding-top: 30px;
+  padding-bottom:30px;
   width: 25%;
+  float: left;
+
 }
 
-.produk h2{
-  text-align: left;
-}
-
-.gambar{
-  height: 200px;
-}
-
-.produk-icon{
+.lesson-icon img{
   position: relative;
   width: 50%;
+  height: 200px;
+  padding-left: 150px;
+}
+
+.lesson p{
+ padding-left: 150px;
 }
 
 .beli{
   background-color: tomato;
+  margin-left: 150px;
+  color: white;
+}
+
+.second-wrapper{
+  height:300px;
+  padding-bottom: 80px;
+  background-color: black;
+}
+
+.heading1 h2{
+  text-align: center;
+  color: white;
+}
+
+.konten a{
+float: left;
+
+}
+.pev{
+  padding-left: 300px;
+  height: 300px;
+}
+
+.pel{
+  height: 300px;
+}
+
+.third-wrapper{
+  height: 200px;
+  background-color: #f4f4f4;
 }
