@@ -57,7 +57,14 @@ header{
   color: black;
   font-family: 'Courier New', Courier, monospace;
 }
-
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display:none;
+}
 .header-right a:hover{
   background-color:white ;
 /*rgba(255, 255, 255, 0.5)*/
@@ -335,6 +342,42 @@ footer a{
 span{
   margin-right: 7px;
 }
-.copy{
-  float: none
+
+@media(max-width:1000px) {
+  .lesson{
+    width: 50%;
+  }
+  .lessons{
+    padding: 0;
+  }
+  .containe{
+    width: 33.33%;
+  }
+  .team{
+    height: 600px;
+  }
+  .lesson-wrapper{
+    margin:0;
+    height:1500px;
+  }
+}
+@media(max-width:670px) {
+  .lesson{
+    width: 100%;
+  }
+  .menu-icon{
+    display:block;
+  }
+  .containe{
+    width: 100%;
+  }.lesson-wrapper{
+    margin:0;
+    height:2000px;
+  }
+  .team{
+    height: 2200px;
+  }
+  .footer-about, .Category, .Contact{
+    width: 100%;
+  }
 }
