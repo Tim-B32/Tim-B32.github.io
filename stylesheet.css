@@ -1,6 +1,7 @@
 body {
   margin: 0;
   font-family: "Lucida Grande";
+  font-family: 'Raleway', sans-serif;
 }
 *{
   box-sizing: border-box;
@@ -135,10 +136,15 @@ header{
   padding: 20px;
 }
 .lesso{
-  padding: 10px;
-  border: 2px solid #727373;
+  padding: 30px;
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  transition: 0.8s;
 }
-
+.lesso:hover{
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
+}
 .lesson{
   padding:20px;
   width: 25%;
@@ -150,17 +156,26 @@ header{
   margin: auto;
   width: 50%;
 }
-
+.lesson-icon img{
+  border-radius: 10px;
+}
 .lesso p{
   text-align: center;
+  color: white;
 }
 .beli{
   padding:12px 24px;
   background-color: red;
   color: white;
-  display: inline-block;
+  display: block;
   opacity: 0.8;
   border-radius: 4px;
+  text-align: center;
+  margin: 0 auto;
+}
+.bel{
+  width: 100%;
+  text-align: center;
 }
 /*END*/
 
@@ -195,11 +210,15 @@ float: left;
 /*ABOUT US*/
 .team{
   margin: 20px;
+  height: 500px;
 }
 .containe{
   padding:20px;
   float: left;
   width: 20%;
+}
+.contain:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.4);
 }
 .contain {
   position: relative;
@@ -210,22 +229,24 @@ float: left;
   width: 100%;
   height: auto;
 }
-
+.bulet{
+  border-radius: 50%;
+}
 .overlay {
   position: absolute;
-  bottom: 100%;
+  bottom: 0;
   left: 0;
   right: 0;
-  background-color: #008CBA;
+  background-color: #212121;
   overflow: hidden;
   width: 100%;
-  height:0;
+  height:100%;
   transition: .5s ease;
 }
 
 .contain:hover .overlay {
-  bottom: 0;
-  height: 100%;
+  bottom: 100%;
+  height: 0;
 }
 
 .text {
@@ -241,43 +262,79 @@ float: left;
 }
 /*END*/
 
-.footer {
-    padding: 50px 0 20px 0;
-    background-color: #35404f;
-    color: #878c94;
+/*FOOTER*/
+footer{
+  background-color: #212121;
+  height: 400px;
 }
-
-.footer .title {
-  text-align: left;
-  color: #fff;
-  font-size: 25px;
+.Category{
+  padding: 40px;
+  float: left;
 }
-
-.btn-wrapper p {
-  margin: 10px 0;
+.about-us{
+  color: #5c5c5c;
+  font-size: 18px;
 }
-
-.signup {
-  background-color: #239b76;
+.b-32{
+  color: white;
 }
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
+.title{
+  color :#d9d9d9;
+  font-size: 18px;
 }
-
-.twitter {
-  background-color: #55acee;
+.footer-about{
+  padding: 40px;
+  float: left;
 }
+.footer-Category h4{
+  margin-right: 20px;
+}
+.footer-Category{
+  list-style: none;
+  color: #3d3d3d;
+}
+.footer-Category li a{
+  color: #5c5c5c;
+  font-size: 18px;
+}
+.footer-Category li{
+  margin-left:-40px;
+}
+.footer-Category li a:hover{
+  color: white;
+}
+.Contact{
+  float: left;
+  padding: 40px;
+  margin-left: 10px;
+}
+.con{
+  margin-left: 10px;
+  padding:12px 24px;
+  background-color:#5c5c5c;
+  color: #3d3d3d;
+  display: block;
+  opacity: 0.8;
+  border-radius: 4px;
+  text-align: center;
+  margin: 0 auto;
+}
+.con:hover{
 
-.footer-category a {
-    text-decoration: none;
-    color: #fff;
-    display: inline-block;
-    padding: 5px 20px;
-    margin: 1px;
-    border-radius:4px;
-    margin-top: 6px;
-    background-color: black;
-    border: solid 1px #fff;
+  background-color:white;
+  color: #5c5c5c;
+
+}
+.sosial{
+  padding-bottom:24px;
+  width: 170px;
+}
+footer a{
+  color: white;
+}
+span{
+  margin-right: 7px;
+}
+.copy{
+  float: none
 }
